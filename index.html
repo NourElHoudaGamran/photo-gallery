@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initializeGallery()">
+
+    <h1>My Photo Gallery</h1>
+
+    <div class="gallery">
+        <div class="thumbnail">
+            <img src="images/photo1.jpg" alt="Sunset over mountains">
+        </div>
+        <div class="thumbnail">
+            <img src="images/photo2.jpg" alt="Beach view">
+        </div>
+        <div class="thumbnail">
+            <img src="images/photo3.jpg" alt="City skyline">
+        </div>
+        <div class="thumbnail">
+            <img src="images/photo4.jpg" alt="Forest path">
+        </div>
+        <div class="thumbnail">
+            <img src="images/photo5.jpg" alt="Snowy mountains">
+        </div>
+        <div class="thumbnail">
+            <img src="images/photo6.jpg" alt="Desert dunes">
+        </div>
+    </div>
+
+    <div id="main-display">
+        <p id="main-text">Hover or focus on a photo to see it here!</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
